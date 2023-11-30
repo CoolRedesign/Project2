@@ -38,3 +38,17 @@ main{
 	background-image: url(../media/aboutbackground.jpg);
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
+#leftparagraph{
+	background-color: pink;
+	float:left;
+	width: 40%;
+	height: 10%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#rightparagraph{
+	background-color: red;
+	float:right;
+	width: 45%;
+	height: 10%;
+}
