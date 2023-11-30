@@ -1,12 +1,18 @@
-
 #fourimages {
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	padding: 5px;
 	max-width: 100%;
 	height: auto;
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#imagess{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  vertical-align: center;
 }
 #about{
 	font-family: 'Merriweather', serif;
@@ -31,4 +37,4 @@ main{
 	background-size: cover;
 	background-image: url(../media/aboutbackground.jpg);
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
-	}
+}
