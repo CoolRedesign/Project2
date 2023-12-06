@@ -55,6 +55,36 @@ header{
   background-color: rgb(39, 38, 66);
 }
 
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ padding-top: 5%;
+ margin-right: 1%;
+ margin-left: 20%;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+#threeimages {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+  height: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+  align-items: left;
+}
+
+#text {
+  font-size: 70px;
+}
+
 @media(min-width: 992px) {
   #logo{
 	margin-left: 0;
