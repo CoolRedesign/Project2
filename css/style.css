@@ -57,7 +57,7 @@ header{
 
 #container {
  display: grid;
- align-items: right; 
+ align-items: center; 
  grid-template-columns: 1fr 1fr 1fr;
  column-gap: 5px;
 }
@@ -75,6 +75,7 @@ img {
   height: auto;
   margin-right: 5%;
   margin-left: 5%;
+  align-items: right;
 }
 
 #text {
