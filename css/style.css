@@ -55,7 +55,7 @@ header{
   background-color: rgb(39, 38, 66);
 }
 
-.container {
+#container {
  display: grid;
  align-items: center; 
  grid-template-columns: 1fr 1fr 1fr;
@@ -67,7 +67,7 @@ img {
   max-height:100%;
 }
 
-.text {
+#text {
   font-size: 70px;
 }
 
