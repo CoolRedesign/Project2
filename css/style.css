@@ -125,7 +125,7 @@ img {
   #navbar-container ul {
 	justify-content: center;
 	width: 87%;
-    display: flex;
+  display: flex;
 	padding-bottom: 1%;
   }
   
@@ -133,7 +133,7 @@ img {
 	margin-left: 10%;
 	margin-right: 10%;
 	border-style: solid;
-    border-radius: 25px;
+  border-radius: 25px;
 	border-width: 0px;
 	overflow: hidden;
   }
@@ -143,10 +143,20 @@ img {
   }
 
 }
-#index h2{
-  font-size: 2em;
+
+#welcomet{
   text-align: center;
-}
-#grouppic{
+  font-size: 2em;
   vertical-align: center;
+
+}
+
+#grouppic {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+  font-size: 1em;
 }
