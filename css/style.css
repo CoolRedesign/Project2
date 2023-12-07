@@ -86,7 +86,7 @@ img {
   max-height:100%;
 }
 
-#threeimages {
+.twoimages {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -125,7 +125,7 @@ img {
   #navbar-container ul {
 	justify-content: center;
 	width: 87%;
-    display: flex;
+  display: flex;
 	padding-bottom: 1%;
   }
   
@@ -133,7 +133,7 @@ img {
 	margin-left: 10%;
 	margin-right: 10%;
 	border-style: solid;
-    border-radius: 25px;
+  border-radius: 25px;
 	border-width: 0px;
 	overflow: hidden;
   }
@@ -143,7 +143,20 @@ img {
   }
 
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 9f6ded99fd9444c75d9fceee1ab5ffd781ae379b
+#welcomet{
+  text-align: center;
+  font-size: 2em;
+  vertical-align: center;
+
+}
+
+#grouppic {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+  font-size: 1em;
+}
